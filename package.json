@@ -1,0 +1,17 @@
+{
+  "name": "imageupload",
+  "version": "1.0.0",
+  "description": "This is sample node API for uploading images there are two different APIs 1. using connect-busboy library 2. passing image as base64",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajitej Kaushik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-busboy": "0.0.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.3"
+  }
+}
